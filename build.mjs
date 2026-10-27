@@ -52,4 +52,42 @@ page({ file: 'privatnost.html', lang: 'hr', title: 'Politika privatnosti', intro
 page({ file: 'privacy.html', lang: 'en', title: 'Privacy policy', intro: enUpd, sections: L.legalSections('privacy', 'en'), other: 'privatnost.html' });
 page({ file: 'uvjeti.html', lang: 'hr', title: 'Uvjeti korištenja', intro: hrUpd, sections: L.legalSections('terms', 'hr'), other: 'terms.html' });
 page({ file: 'terms.html', lang: 'en', title: 'Terms of use', intro: enUpd, sections: L.legalSections('terms', 'en'), other: 'uvjeti.html' });
+// upute za beta testere (samo HR; poveznica se šalje trenerima uz pozivnicu)
+page({
+  file: 'beta.html', lang: 'hr', title: 'Upute za beta testere', other: 'en.html',
+  intro: 'Hvala što testiraš TRENtime! Beta je besplatna do 28. 2. 2027. Svaka primjedba nam pomaže.',
+  sections: [
+    { h: '1. Instalacija', p: [
+      'iPhone: iz App Storea instaliraj aplikaciju TestFlight (Apple). Zatim otvori pozivnicu koju si dobio/la e-mailom ili poveznicom i dodirni „Instaliraj”. TRENtime se pojavi na početnom zaslonu kao i svaka aplikacija.',
+      'Android: otvori poveznicu za instalaciju na mobitelu i preuzmi datoteku. Kad mobitel pita, dopusti instalaciju iz tog izvora („nepoznati izvori”) i dovrši instalaciju.',
+      'Kad aplikacija pita smije li slati obavijesti, odaberi „Dopusti” – tako stižu podsjetnici, nove rezervacije i otkazivanja.',
+    ] },
+    { h: '2. Prvi koraci za trenera', p: [
+      'Registriraj se kao trener i potvrdi e-mail (stiže kod od TRENtime <noreply@trentime.eu>).',
+      'Postavke: odaberi trajanje termina, upiši standardni tjedni raspored i provjeri „Odsutnost i praznici” (zadano ne radiš na državne praznike; pojedini možeš uključiti).',
+      'Klijenti: pozovi klijenta QR kodom, poveznicom ili e-mailom. Osobe bez aplikacije možeš voditi kao goste.',
+      'Na kartici klijenta dodaj paket (broj treninga, cijena, rok) i po želji redovni termin.',
+      'Tjedni poziv: upiši tekst i dan slanja – klijenti dobiju poruku s gumbom „Otvori kalendar”.',
+    ] },
+    { h: '3. Za klijente', p: [
+      'Klijent se registrira kao klijent i poveže s trenerom skeniranjem QR koda ili preko poveznice. Trener odobri zahtjev.',
+      'Rezervacija: „Rezerviraj termin” → odabir slobodne kućice. Otkazivanje više od 24 h prije je besplatno; unutar 24 h se naplaćuje, osim ako se otkaže u roku 5 minuta od rezervacije (zabuna).',
+    ] },
+    { h: '4. Što posebno testirati', p: [
+      'Rezervacije, otkazivanja i promjene termina (posebno manje od 24 h prije).',
+      'Pakete: skidanje treninga nakon održanog termina, nadoknade, „Klijent je otkazao”, „Nije došao”.',
+      'Grupne termine (do 4 osobe, 50 % cijene) i redovne termine.',
+      'Obavijesti na mobitelu i u aplikaciji, tjedni poziv, praznike i odsutnost.',
+      'Svijetlu i tamnu temu (Postavke → Izgled).',
+    ] },
+    { h: '5. Kako prijaviti problem', p: [
+      'U aplikaciji: Postavke (trener) ili Profil (klijent) → „Pošalji povratnu informaciju”. Opiši što si radio/la i što se dogodilo; po želji dodaj snimku zaslona.',
+      'Ili e-mailom na trentime44@gmail.com.',
+    ] },
+    { h: '6. Važno', p: [
+      'Beta je testna verzija: moguće su greške i promjene. Ne oslanjaj se još isključivo na aplikaciju za evidenciju plaćanja.',
+      'Podaci se obrađuju prema politici privatnosti: trentime.eu/privatnost.html',
+    ] },
+  ],
+});
 console.log('ok');
