@@ -82,7 +82,7 @@ page({
     ] },
     { h: '5. Kako prijaviti problem', p: [
       'U aplikaciji: Postavke (trener) ili Profil (klijent) → „Pošalji povratnu informaciju”. Opiši što si radio/la i što se dogodilo; po želji dodaj snimku zaslona.',
-      'Ili e-mailom na trentime44@gmail.com.',
+      'Ili e-mailom na info@trentime.eu.',
     ] },
     { h: '6. Važno', p: [
       'Beta je testna verzija: moguće su greške i promjene. Ne oslanjaj se još isključivo na aplikaciju za evidenciju plaćanja.',
